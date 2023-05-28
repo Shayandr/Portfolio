@@ -1,0 +1,23 @@
+@import "structure";
+@import "components";
+@import "layout";
+
+@media only screen and (max-width: 920px) {
+  
+  .products-container .product-drape h1{
+    font-size: 1.2rem !important;
+  }
+  .products-container .product-drape p{
+    font-size: 0.9rem !important;
+  }
+  .products-container .product-drape .product-btn{
+    font-size: 0.9rem !important;
+    padding: 5px;
+  }
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

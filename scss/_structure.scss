@@ -1,0 +1,174 @@
+$color-one: red;
+$color-two: rgb(92, 0, 0);
+$color-three: rgb(53, 53, 53);
+$color-four: rgb(255, 255, 255);
+
+@mixin top($x) {
+  position: relative;
+  top: $x;
+}
+
+@keyframes burgerRot {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  33% {
+    transform: rotate(90deg);
+  }
+
+  66% {
+    transform: translate(0px, 0px) rotate(90deg);
+  }
+
+  100% {
+    transform: translate(122.5px, 122.5px) rotate(90deg);
+  }
+}
+
+@keyframes burgerRotb {
+  0% {
+    transform: translate(122.5px, 122.5px) rotate(90deg);
+  }
+
+  33% {
+    transform: translate(0px, 0px) rotate(90deg);
+  }
+
+  66% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1.4, 1.4);
+  }
+  30% {
+    transform: scale(1.3, 1.3);
+  }
+  50% {
+    transform: scale(1.6, 1.6);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes l1 {
+  0% {
+  }
+
+  33% {
+    transform: rotate(0deg);
+  }
+
+  66% {
+    transform: rotate(-45deg);
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes l1b {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  33% {
+    transform: rotate(-45deg);
+  }
+
+  66% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+  
+  }
+}
+
+
+@keyframes l2 {
+  0% {
+  }
+
+  33% {
+    transform: translateX(0px);
+  }
+
+  66% {
+    transform: translateX(150px);
+    width: 55px;
+  }
+
+  100% {
+    transform: translateX(150px);
+    width: 300px;
+  }
+}
+
+@keyframes l2b {
+  0% {
+    transform: translateX(150px);
+    width: 300px;
+  }
+
+  33% {
+    transform: translateX(150px);
+    width: 55px;
+  }
+
+  66% {
+    transform: translateX(0px);
+  }
+
+  100% {
+  }
+}
+
+@keyframes l3 {
+  0% {
+
+  }
+
+  33% {
+    transform: rotate(0deg);
+  }
+
+  66% {
+    transform: rotate(45deg);
+  }
+
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes l3b {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  33% {
+    transform: rotate(45deg);
+  }
+
+  66% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    
+  }
+}
+

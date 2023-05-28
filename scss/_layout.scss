@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba($color-three, 0.4), rgba($color-three, 0.6)),
+    url(../image/BNS_Site_ProductFamily.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  &-banner {
+    @include top(10%);
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &-banner2 {
+    @include top(30%);
+    margin-left: 5vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.mainc {
+  .about {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-two;
+  }
+
+  .discription {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.products {
+  &-container {
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .product {
+      position: relative;
+      width: 30vw;
+      height: 30vw;
+    }
+  }
+}
+
+.footer {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-two;
+    padding: 5vh 0;
+
+    .logo {
+      width: 20vw;
+      height: 20vw;
+    }
+
+    .social-media {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+
+      li {
+        font-size: 3rem;
+        margin: 20px;
+        color: $color-four;
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:hover {
+          color: $color-one;
+        }
+      }
+    }
+
+    p {
+      color: $color-four;
+      font-size: 1rem;
+    }
+  }
+}
+
+.nav-bar {
+  .items {
+    overflow: hidden;
+    position: fixed;
+    right: 57.5px;
+    top: 180px;
+   
+    height: 300px;
+    width: 300px;
+    .menu-rot {
+      height: 100%;
+      width: 100%;
+      list-style: none;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      #m1 {
+        rotate: 180deg;
+        transition: all 0.5s;
+      }
+      #m2 {
+        rotate: 180deg;
+        transition: all 0.5s;
+      }
+      #m3 {
+        translate: 120px;
+        transition: all 0.5s;
+      }
+      #m4 {
+        rotate: 180deg;
+        transition: all 0.5s;
+      }
+      #m5 {
+        rotate: 180deg;
+        transition: all 0.5s ;
+      }
+
+      .menu-item {
+        transform-origin: right;
+        
+        
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: 2rem;
+          letter-spacing: 8px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+
+  .check-box {
+    display: block;
+  }
+  .burger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: all 0.5s;
+  }
+}
