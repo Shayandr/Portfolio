@@ -10,7 +10,7 @@ var i6 = document.querySelector("#f-item6");
 
 
 i1.addEventListener("mouseover", ()=>{ imgnav.src = "../image/galaxy-tab-s6-lite-2022-lte-sm-p619-.jpg";} );
-i2.addEventListener("mouseover", ()=>{ imgnav.src = "https://www.gsmarena.com/samsung_galaxy_m53-pictures-11439.php";} );
+i2.addEventListener("mouseover", ()=>{ imgnav.src = "../image/samsung-galaxy-m53-5g.jpg";} );
 i3.addEventListener("mouseover", ()=>{ imgnav.src = "../image/samsung-galaxy-s22-ultra-5g.jpg";} );
 i4.addEventListener("mouseover", ()=>{ imgnav.src = "../image/samsung-galaxy-tab-s8-plus.jpg";} );
 i5.addEventListener("mouseover", ()=>{ imgnav.src = "../image/samsung-galaxy-watch5pro.jpg";} );

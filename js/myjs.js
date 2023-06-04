@@ -116,7 +116,7 @@ function rchanger() {
 
 function loadcoins() {
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "coin.json", true);
+    xhr.open("GET", "../coin.json", true);
     xhr.onload = function () {
         if (this.status === 200) {
             coins = JSON.parse(this.responseText);
